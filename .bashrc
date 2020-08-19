@@ -119,3 +119,6 @@ fi
 alias gs='git status'
 alias ga='git add'
 alias gc='git commit'
+
+#Activate venv
+alias venv='source venv/bin/activate'

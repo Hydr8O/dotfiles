@@ -122,3 +122,9 @@ alias gc='git commit'
 
 #Activate venv
 alias venv='source venv/bin/activate'
+
+#List pip3 packages
+alias pipls='pip3 list | grep $1'
+
+#Tmux aliases
+alias attach='tmux attach -t $1'
